@@ -1,0 +1,41 @@
+
+ Laboratory Session 2
+
+ Manipulation using NetworkX and other python libraries
+
+A)
+  Use the version of karateClubDataset available at
+https://github.com/benedekrozemberczki/karateclub/tree/master/dataset/node_level/deezer
+
+  
+   Write a program that 
+   
+  a) Displays the whole graph using Gephi visualization, and highlights the node with the highest degree. 
+  b) Enumerates the various components of the network and indicating the size of each component
+  c) Displays the distribution (histogram) of degree centrality, eigenvector centrality, page rank centrality. 
+  d) Repeat c) when using closeness centrality, betweenness centrality 
+  e) Repeat c) and d) for largest component of the network
+  f) Displays the local clustering coefficient of each node, and draws the corresponding distribution function for the largest component. 
+  
+  g) Calculates the global clustering coefficient of the overall graph (or its largest connected component). 
+  h) Identify a subgraph, which is bipartie graph 
+
+
+B)
+Consider the eggo-Facebook dataset, available at https://snap.stanford.edu/data/ego-Facebook.html  (Use only the Facebook dataset graph)
+
+Write a program that
+
+a) Calculates the degree, closeness and in-betweeness centrality of each node of the network, and displays the corresponding distribution (histogram)
+
+b) Calculates the shortest distance between node (s) of highest centrality score and node (s) of second highest centrality score (for both degree, closeness, in-betweeness centraility measures)
+
+c) Displays the subgraph where the nodes are most connected (in terms of degree centrality).. Can use your own reasoning for this issue
+
+d) Calculates the local clustering coefficients and the shortest distance among the nodes with highest and second highest clustering coefficient.
+
+d) Checks whether Power-law distribution is fitted
+
+ 
+
+ 

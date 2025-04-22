@@ -1,0 +1,52 @@
+
+ Session 1: Introduction to use of NetworkX for network analysis
+
+
+  Check also the NetworkX online tutorial and index:
+       http://networkx.github.io/documentation/latest/tutorial/index.html
+       http://networkx.github.io/documentation/latest/genindex.html
+
+
+
+ 1) Write a full graph of 50 nodes where from each node, there is a link (either in-going or out-going links) to one to 4 other nodes, taken at random, of your choice. 
+    Use a labelling of your choice to label each node of the network.
+ 
+ a) -  Use a visualization tool to display the graph     
+ 
+ b) -  Use a visualization of your choice to display the nodes each node is linked to
+
+ c) -  Calculate the degree centrality of each node and the average degree of the graph  (use appropriate functions in 
+    NetworkX) and display their values
+
+ d) - Draw the degree distribution plot and comment on whether the power-law distribution is fit 
+
+ e) - Test other centrality measures available in NetworkX and display their values, and store the centrality values 
+      in a vector
+
+ f) - write a script that randomly removes one node from the above graph
+
+     - Repeat the process a)-d)  until the number of nodes in the graph is equal to one.
+
+ g ) Display a graph showing the variations of the various centrality measures as a function of the number of 
+edges in the graph.
+
+
+ 2) Use the provided dataset karate_club_coords.pkl.   
+   Write a program that 
+   
+  a) Inputs the above dataset 
+  b) Displays the adjacency matrix of this graph and the network associated to this dataset
+  c) Calculates the degree centrality of each node and store them in an array vector
+  d) Uses appropriate NetworkX functions to identify the largest component of the graph, and smallest component. 
+  r) Draw the degree distribution of this component (subgraph of d)). 
+  f) Use appropriate NetworkX functions to compute the diameter of the whole network and diameter of the largest component.
+  
+
+
+
+
+
+
+
+    
+
